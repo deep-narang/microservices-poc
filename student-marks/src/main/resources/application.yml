@@ -1,0 +1,17 @@
+server:
+  port: 8082
+  
+spring:
+  application:
+    name: student-marks
+    
+  datasource:
+    url: jdbc:mysql://localhost:3307/microservices
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
